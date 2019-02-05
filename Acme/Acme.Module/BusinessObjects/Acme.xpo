@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="82bb75d3-9cff-42bd-b8e5-008144459693" dbName="acme" connectionInfo="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxEZXZFeHByZXNzWHBvR2VuZXJhdG9yU2V0dGluZ3MgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgcHJvdmlkZXJLZXk9Ik1TU3FsU2VydmVyIj4NCiAgPHBhcmFtZXRlcj4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0ic2VydmVyIiB2YWx1ZT0iLiIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0iZGF0YWJhc2UiIHZhbHVlPSJhY21lIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJ1c2VJbnRlZ3JhdGVkU2VjdXJpdHkiIHZhbHVlPSJGYWxzZSIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0idXNlcmlkIiB2YWx1ZT0ic2EiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9InBhc3N3b3JkIiB2YWx1ZT0iTWFlc3RyYTEyMzQ1NiIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0icmVhZCBvbmx5IiB2YWx1ZT0iMSIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0iZ2VuZXJhdGVDb25uZWN0aW9uSGVscGVyIiB2YWx1ZT0idHJ1ZSIgLz4NCiAgPC9wYXJhbWV0ZXI+DQo8L0RldkV4cHJlc3NYcG9HZW5lcmF0b3JTZXR0aW5ncz4=" namespace="Acme.Module.BusinessObjects.acme" connectionString="XpoProvider=MSSqlServer;data source=.;user id=sa;password=Maestra123456;initial catalog=acme;Persist Security Info=true" dataBaseShemaInfo="H4sIAAAAAAAEAO1b224bRxJ9D5B/EPTsEvt+CSgGtpQNjM1mjcgO8lpdXS0zK5EEh5Ttv98aS5YlK9l1kAnHkvJCsKt7MHO6qk+d6umZfvv2/GzvgtfdfLk43NcHav/b2ddfTZ9hxyeb5RpP+fmiLfdk1KL75m03P9x/vdmsvplM3rx5c/DGHizXpxOjlJ788q8fTug1nyPMF90GF8T711fV/3/Vvtx1b2/6EssZd/0t37c/WG4YPph+xHOePdt28wV3rxbzzXTy0Xw98rtFb5tt1lueTq4a153H8643vFpV3PCs4Vkng24br8d+v53X53XWQtYt1gymtgCuxgK5eQIKoRRrVU2pTSdXg68vPlqebc8X3S0Qv2uWjh7DZefs+fF0cqN5a9j/AvdHAd4EWTSl4lSAbInAOY+QdchQfYulJTSGwx2QcvnkT+Cc18eBcyF/d4+0NYlUXzw0JglbywQpoJIAtqbarDw1/9lIf8t6tfg+e92e8PpiTvzy3Yp3sm6RUyuKGAR1A6eiglJ0hkS2NVdzIT/suh0jnnNULjdNUEJN4EJQfWRbsMlEJNI5xfww4jn42hKFBlhKBFe0gWKyAxW19ZWSdaYOjfT5I/Hoj/ffowMy1E7YycagkQxB5WyFnouDQtrLj2Qnr0Iw3tx7dmro2SijoCrRT672+LSuYJVLWSu0VOLQsVwu5eGVPtx5TIcanfcWNGEB11hD8ZJ+KmtJOVw1Wzs04u5mYt01YCOwtM4BUiaUOE5JZIaTYA69i7FxDe4vAvzDknAjJczuQcdodDQxg7XkwImCFBXZChitbCAbfaTP11afCXrF6/lyDMWskjdkLYg0ZnAxiquDeFm4C0M1tqk/oCO/4Lw7Blc9e3RcdfLYuOrkMXLVi4fAVQMqyo/e34WylOqhJSP0lXMF54vI6iSFf8RGuUWfGqt7ryx9tR5TZpCgtj1bF8CGFpTKZNgWTeaufL6XdW81SjnMCWIqQlqcMpTqCaIyIWUbVLLpIeTfMTw6Tt07qEeHYKlXIqh3Wfvm4JTiYICCUpKSZBZydAReeQ4lK2vq/a99qy3ogpcM5Ppd14IJshd5mZPCUpOtvvLQ8Vx5hevNOS9GUJMYSHPTEaLTrRdXDpKW9YvOBXKaStZlaLx4ygt6N4LOQG+bdUW4ivsUKzoDo2gqISkR1FSa5cGFJC23Y7g1JbZErYLKpoearISxLFibomf02RkeXD4eP7IwfvqIwvjoAYTxEDn3ZozvIOUGKpZCkWBGjr26YkCLDUxTMiu5aGPu7m7ct5TbMKBNgkqzqv2eegNENhBYKn8OtQnOh1EUJG5UerHMFJIUulghxYYQos2BYqzVD75yx9mU271HxykKBvXoEAR1e2/yIZ6z+fv8yV+JdNDzJ18wRY3h0XEo6os7UfR0tdrltoVWtQYd+1ogFXAs7Jyt9pBKqVR1JRPu/7ZFs63YIpGsc/+6APttOGXE3ZJy0Rs2Ng1e/4xDUD3AFCuCic1IODsn7lQKWFxpLOqo8UEQ1BgeHYegBvXoEAT14T3YDsgpxaI82giRPIMriSFH70U9+aqTiOiU7mL/U6eUx8i1xYt7g5IMJL51QSvIXCX1umRc0bYkTQ+DnJLnmKkIvtYkwwYSd6ZCAlzqeEvNSsrZbTmAHf+7/Mq0m2JA1xapkYGYvXi6ZJRyyEdgFM6iIl3l7u75fQvnFKh/48OAAldkVEmAVnnwjbKrRmOhwav4kY56Zu+dax6MEk5yVA1gVCg/PpJmY7Qe9qjnVfvjkGn/ZQvXF+slvTfuTS7NP19+BjM75ovv3q7WUvAeHOMGDy60PzBP9q66D/vWQTxQT/aOtmeb7ZoPF7zdrPHsyd6LbTmb0z/53cvlf3hxWFKqOnqpX5Vil3E6+XCL9/c7OsOu4653wE/b69mdPq3yaNzmb6+e69J0sm23TD/x+fKCPx14af107JEs2NmrBb3GxSnL5L5vX07Nbz3DVGZmxevNfORn+53HmH7PC15LeB0tz/tN0+4qRu+Ybw0+5m5+Kn//MZdQ+OSK231ffzWdfPL90+y/LtSf9Sg1AAA=" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="c6e00e3c-7bfc-48c5-bf7d-3df2eec06685">
+      <xpObject Id="f691f7d9-2df6-4d7b-9f5c-c66bb330d88f" name="BusinessUnit" baseClass="BaseObject" userFileName="BusinesUnit" designerFileName="BusinesUnit.Designer" className="BusinessUnit" virtualBaseClass="BaseObject" virtualName="BusinessUnit">
+        <superClass>
+          <inheritance Id="f9d22125-d92a-4637-9afc-c58ebd2eecb6">
+            <xpObjectMoniker Id="1df7cfc2-7954-4b9a-8757-ea2a5cbcfcbe" />
+          </inheritance>
+        </superClass>
+        <saTargets>
+          <simpleAssociation Id="0f963edf-52a2-4dcf-a895-77d69d3c4418" sourceCollectionName="Services" name="ServiceReferencesBusinessUnit" targetFieldName="BusinessUnit">
+            <xpObjectMoniker Id="3761ac2c-de93-43b4-bc15-bc4065066252" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="22e09947-a4a7-4578-8e4c-e8a923348837">
+            <collectionField Id="4a415280-063a-4bd6-bde4-860f2a06e107" name="Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="20dd389a-fcbb-48e2-a270-2bed1bc60284">
+      <xpObject Id="ae8fb0ce-6a0f-4070-bb19-8c3ff4d9bc5f" name="ServiceType" baseClass="XPLiteObject" userFileName="ServiceType" designerFileName="ServiceType.Designer" className="ServiceType" virtualBaseClass="XPLiteObject" virtualName="ServiceType">
+        <fields>
+          <generalXpObjectHasFields Id="5a9663d7-22c5-42aa-9172-d80adc7199ea">
+            <field Id="97049f1c-b6d8-4660-93c3-3827acc19879" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="01cca048-6584-4ed5-aa72-42e5538866c8">
+            <field Id="65df8c6f-abb7-4b12-b294-07135dc8342d" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="0eb4c34a-18bc-41c9-b8b0-d2549bebf325" sourceCollectionName="Services" name="ServiceReferencesServiceType" targetFieldName="ServiceType">
+            <xpObjectMoniker Id="3761ac2c-de93-43b4-bc15-bc4065066252" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="59689417-ee35-40a1-ada4-e21eec1181c0">
+            <collectionField Id="8d92296b-a8b1-4f7b-b24c-657ece24e39a" name="Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="04a79c4b-22c8-4e45-9b31-d69e340dfac9">
+      <xpObject Id="3761ac2c-de93-43b4-bc15-bc4065066252" name="Service" baseClass="XPLiteObject" userFileName="Service" designerFileName="Service.Designer" className="Service" virtualBaseClass="XPLiteObject" virtualName="Service">
+        <fields>
+          <generalXpObjectHasFields Id="3f974b43-fcea-4c00-bc0f-2bd873f9d68b">
+            <field Id="fa5e2020-d0d9-4d15-b11d-3048910a3cb7" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="58cde86a-7fd6-4066-a629-17bb1a770d96">
+            <field Id="66d74553-1cab-4fe1-b50f-de14d9ed1e33" name="BusinessUnit" virtualColumnType="BusinessUnit" logicalType="BusinessUnit" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="13da8508-677e-4134-a6ed-47c70a8bc53d">
+            <field Id="24d91196-89ca-4388-8644-b64891afed64" name="ServiceType" virtualColumnType="ServiceType" logicalType="ServiceType" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f34da05e-2de5-4d72-b69b-38e0c3e33cc1">
+            <field Id="77217279-33c4-4916-91fb-21036c3757c5" name="ServiceLocation" virtualColumnType="ServiceLocation" logicalType="ServiceLocation" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5e7d0d6a-b94c-4cfc-b756-5075c2173301">
+            <field Id="b0852c33-22ee-4776-8688-c2ca6d23f0f5" name="Period" columnType="Int32" virtualColumnType="Period" logicalType="Period" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <mMTarget>
+          <manyToManyRelationship Id="53ca50a1-e762-4517-89e3-62962ea2e7d1" sourceCollectionName="UserServices" name="UserServiceReferencesService" targetCollectionName="Services">
+            <xpObjectMoniker Id="96400e62-c600-49ba-974c-505e6b9032d2" />
+          </manyToManyRelationship>
+          <manyToManyRelationship Id="c7ddd549-531c-4987-8f50-54dfa2820943" sourceCollectionName="AppServices" name="AppServiceReferencesService" targetCollectionName="Services">
+            <xpObjectMoniker Id="10dd6173-a48b-4efa-9315-8bbdcd1dc262" />
+          </manyToManyRelationship>
+        </mMTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="58e5aa9f-2f30-4ec5-b429-3424f6dc1683">
+            <collectionField Id="2bdd8828-9c94-49f9-8cff-85081d91b378" name="UserServices" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="d5047d03-9242-4737-a6f3-d235db60bec4">
+            <collectionField Id="02d0331c-229f-4f2d-be90-ef82d894ea20" name="AppServices" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="a675d93c-aab2-4f15-bce6-8614cfea705f">
+      <xpObject Id="39f1f825-b99d-45b2-b8a0-7afc9f758fe0" name="ServiceLocation" baseClass="XPLiteObject" userFileName="ServiceLocation" designerFileName="ServiceLocation.Designer" className="ServiceLocation" virtualBaseClass="XPLiteObject" virtualName="ServiceLocation">
+        <fields>
+          <generalXpObjectHasFields Id="49da4c68-44a7-460b-854e-80abf08549b3">
+            <field Id="5d35a89e-3c43-4d1b-afa3-009c2e3b1c22" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c334b115-7ee8-413c-a8b1-2e6df983e8cf">
+            <field Id="d2004a98-78ba-4e89-bd5c-702689360838" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="e2842f9a-f67c-41ef-9e1a-543abfdc74be" sourceCollectionName="Services" name="ServiceReferencesServiceLocation" targetFieldName="ServiceLocation">
+            <xpObjectMoniker Id="3761ac2c-de93-43b4-bc15-bc4065066252" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="60f07828-1e5b-4fe8-b077-a28e109fe4ad">
+            <collectionField Id="f3844dd4-3d9d-48ae-947a-49416cb4c0e9" name="Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="dfd95b1b-c4d5-400d-83ea-cd1e871f1634">
+      <xpObject Id="96400e62-c600-49ba-974c-505e6b9032d2" name="UserService" baseClass="XPLiteObject" userFileName="UserService" designerFileName="UserService.Designer" className="UserService" virtualBaseClass="XPLiteObject" virtualName="UserService">
+        <fields>
+          <generalXpObjectHasFields Id="33d14f33-7ab2-4470-b5f8-edd0504b20d3">
+            <field Id="d3ba4656-84a0-4ba8-9520-980abd83d5de" name="id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d1dc2f1b-1fc6-4399-823d-514c56482436">
+            <field Id="a6c1ef17-741f-4384-81a3-a446c41cb91b" name="Department" virtualColumnType="Department" logicalType="Department" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f277f8dc-740a-4361-a4a8-7df84667e64f">
+            <field Id="ba53f34b-3ced-4576-a7fb-b1c455cbf3e4" name="Agency" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2631065e-ba2e-4710-a421-fe0132272111">
+            <field Id="88e3ccfd-092d-4583-95ba-3875ea5942e5" name="Count" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="56824d5c-7490-4bf9-91fa-9d3e833df1a5">
+            <collectionField Id="5be0e027-f525-44af-b7fd-ab0d0a3e4d3a" name="Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="64b96027-64b4-4c33-a0d9-123554cf0877">
+      <xpObject Id="6cb3c6b4-8ae7-4d1e-a3af-2f0cfd9b1227" name="Department" baseClass="XPLiteObject" userFileName="Department" designerFileName="Department.Designer" className="Department" virtualBaseClass="XPLiteObject" virtualName="Department">
+        <fields>
+          <generalXpObjectHasFields Id="69dc322a-5e1f-4939-9caa-6247b3519736">
+            <field Id="fa6a38af-1e0d-43bf-aae2-6e24de6df9b1" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6cae7a2a-7214-408b-8196-49c11da64f5e">
+            <field Id="8efcb89e-ec68-47ad-87fa-67396c77dd54" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="f0995ec6-f018-4db3-af65-d194bf19fe1e" sourceCollectionName="UserServices" name="UserServiceReferencesDepartment" targetFieldName="Department">
+            <xpObjectMoniker Id="96400e62-c600-49ba-974c-505e6b9032d2" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="59848fb0-b042-43ef-91ad-6b820c74975d">
+            <collectionField Id="6c8a58cb-133b-4bbf-b395-9e24e80bbdca" name="UserServices" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="2a433e39-7132-403a-bb64-b7573a6b8c83">
+      <xpObject Id="10dd6173-a48b-4efa-9315-8bbdcd1dc262" name="AppService" baseClass="XPLiteObject" userFileName="AppService" designerFileName="AppService.Designer" className="AppService" virtualBaseClass="XPLiteObject" virtualName="AppService">
+        <fields>
+          <generalXpObjectHasFields Id="ddd721ed-6603-40c0-b7be-eff803f49b15">
+            <field Id="f3fb3bcc-19c4-4a1b-a026-46e2a52e238b" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b1b0f33f-2173-48bd-b632-8cc34d6627c0">
+            <field Id="19c487da-27f2-4344-9300-ed1d23a171a5" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="6666c604-b339-4dde-8003-5565003313cc">
+            <collectionField Id="b6b6a15e-aae6-425e-b1ac-99b5816653a5" name="Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="64f2e176-ad12-47dc-8ec0-3408078b5a44">
+      <xpObject Id="87b05a37-7c5e-4b8e-9755-c65d18a38885" name="Period" baseClass="XPLiteObject" userFileName="Period" designerFileName="Period.Designer" className="Period" virtualBaseClass="XPLiteObject" virtualName="Period">
+        <fields>
+          <generalXpObjectHasFields Id="f9b25a44-d778-495b-8b98-fa477223c333">
+            <field Id="bb57da60-fe44-4610-9ed6-94824b13b81c" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2a6283c4-8b5a-4d40-9ed0-bb646bfbb541">
+            <field Id="85e79cb0-9ff0-46ce-98bc-feb3c3cf3bdc" name="name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="d37fd43c-97f7-4e1c-abaa-26f437a3857f" sourceCollectionName="Services" name="ServiceReferencesPeriod" targetFieldName="Period">
+            <xpObjectMoniker Id="3761ac2c-de93-43b4-bc15-bc4065066252" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="06ebfb4a-070a-43ed-8c78-4abaf5b5d690">
+            <collectionField Id="7f9b3c60-ec00-4995-a556-fcd854f3ed10" name="Services" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="74e60799-3179-42e6-b859-3797305156de">
+      <xpObject Id="1df7cfc2-7954-4b9a-8757-ea2a5cbcfcbe" name="BaseObject" baseClass="XPLiteObject" userFileName="BaseObject" designerFileName="BaseObject.Designer" className="BaseObject" virtualBaseClass="XPLiteObject" virtualName="BaseObject">
+        <fields>
+          <generalXpObjectHasFields Id="35d2c44b-f62e-4a5c-b910-378c7b4c8b44">
+            <field Id="86c2689e-a1df-4db8-a305-5fc94d21abc4" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3ef3dbcf-7343-4125-91cd-bb44bab903f9">
+            <field Id="695544f5-2055-4cd2-a70a-a757c1e2211d" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

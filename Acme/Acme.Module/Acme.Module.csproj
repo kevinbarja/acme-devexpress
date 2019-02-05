@@ -92,6 +92,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessObjects\AcmeCode\AppService.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\AppService.Designer.cs">
+      <DependentUpon>AppService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\AcmeCode\BaseObject.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\BaseObject.Designer.cs">
+      <DependentUpon>BaseObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\AcmeCode\BusinesUnit.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\BusinesUnit.Designer.cs">
+      <DependentUpon>BusinesUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\AcmeCode\ConnectionHelper.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\Department.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\Department.Designer.cs">
+      <DependentUpon>Department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\AcmeCode\Period.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\Period.Designer.cs">
+      <DependentUpon>Period.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\AcmeCode\Service.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\Service.Designer.cs">
+      <DependentUpon>Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\AcmeCode\ServiceLocation.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\ServiceLocation.Designer.cs">
+      <DependentUpon>ServiceLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\AcmeCode\ServiceType.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\ServiceType.Designer.cs">
+      <DependentUpon>ServiceType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\AcmeCode\UserService.cs" />
+    <Compile Include="BusinessObjects\AcmeCode\UserService.Designer.cs">
+      <DependentUpon>UserService.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
@@ -109,6 +146,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="BusinessObjects\Acme.xpo" />
+    <None Include="BusinessObjects\Acme.xpo.diagram">
+      <DependentUpon>Acme.xpo</DependentUpon>
+    </None>
     <None Include="DatabaseUpdate\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
