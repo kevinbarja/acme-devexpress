@@ -14,7 +14,7 @@ using System.ComponentModel;
 namespace Acme.Module.BusinessObjects.acme
 {
 
-    public partial class BaseObject : XPLiteObject
+    public partial class AcmeBaseObject : XPLiteObject
     {
         int fId;
         [Key(true)]

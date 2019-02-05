@@ -6,9 +6,9 @@ using System.ComponentModel;
 namespace Acme.Module.BusinessObjects.acme
 {
 
-    public partial class BaseObject
+    public partial class AcmeBaseObject
     {
-        public BaseObject(Session session) : base(session) { }
+        public AcmeBaseObject(Session session) : base(session) { }
         public override void AfterConstruction() { base.AfterConstruction(); }
         public abstract new class Fields
         {

@@ -14,8 +14,21 @@ using System.ComponentModel;
 namespace Acme.Module.BusinessObjects.acme
 {
 
-    public partial class BusinessUnit : BaseObject
+    public partial class BusinessUnit : XPLiteObject
     {
+        int fId;
+        [Key(true)]
+        public int Id
+        {
+            get { return fId; }
+            set { SetPropertyValue<int>("Id", ref fId, value); }
+        }
+        string fName;
+        public string Name
+        {
+            get { return fName; }
+            set { SetPropertyValue<string>("Name", ref fName, value); }
+        }
         [Association(@"ServiceReferencesBusinessUnit")]
         public XPCollection<Service> Services { get { return GetCollection<Service>("Services"); } }
     }

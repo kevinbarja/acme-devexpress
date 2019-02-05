@@ -10,12 +10,6 @@ namespace Acme.Module.BusinessObjects.acme
     {
         public BusinessUnit(Session session) : base(session) { }
         public override void AfterConstruction() { base.AfterConstruction(); }
-        public new class Fields : BaseObject.Fields
-        {
-            protected Fields() : base() { }
-            public static OperandProperty Services { get { return new OperandProperty("Services"); } }
-
-        }
     }
 
 }
