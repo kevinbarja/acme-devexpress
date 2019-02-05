@@ -23,11 +23,11 @@ namespace Acme.Module.BusinessObjects.acme
             get { return fId; }
             set { SetPropertyValue<int>("Id", ref fId, value); }
         }
-        string fname;
-        public string name
+        string fName;
+        public string Name
         {
-            get { return fname; }
-            set { SetPropertyValue<string>("name", ref fname, value); }
+            get { return fName; }
+            set { SetPropertyValue<string>("Name", ref fName, value); }
         }
         [Association(@"ServiceReferencesPeriod")]
         public XPCollection<Service> Services { get { return GetCollection<Service>("Services"); } }

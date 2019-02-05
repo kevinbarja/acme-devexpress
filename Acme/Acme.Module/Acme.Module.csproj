@@ -96,10 +96,6 @@
     <Compile Include="BusinessObjects\AcmeCode\AppService.Designer.cs">
       <DependentUpon>AppService.cs</DependentUpon>
     </Compile>
-    <Compile Include="BusinessObjects\AcmeCode\BaseObject.cs" />
-    <Compile Include="BusinessObjects\AcmeCode\BaseObject.Designer.cs">
-      <DependentUpon>BaseObject.cs</DependentUpon>
-    </Compile>
     <Compile Include="BusinessObjects\AcmeCode\BusinesUnit.cs" />
     <Compile Include="BusinessObjects\AcmeCode\BusinesUnit.Designer.cs">
       <DependentUpon>BusinesUnit.cs</DependentUpon>
